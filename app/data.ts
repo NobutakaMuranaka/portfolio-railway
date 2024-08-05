@@ -8,16 +8,16 @@ export type Work = {
 const data: Work[] = [
   {
     id: "1",
-    title: "Work 01",
+    title: "東海道線",
     description:
       "ここに説明が入りますここに説明が入りますここに説明が入りますここに説明が入りますここに説明が入りますここに説明が入りますここに説明が入りますここに説明が入りますここに説明が入りますここに説明が入りますここに説明が入りますここに説明が入りますここに説明が入りますここに説明が入ります",
-    imageSrc: "/01.png",
+    imageSrc: "/IMG_6205.JPG",
   },
   {
     id: "2",
-    title: "Work 02",
+    title: "山口線",
     description: "ここに説明が入ります",
-    imageSrc: "/02.png",
+    imageSrc: "/IMG_4734_Original.jpg",
   },
 ];
 
