@@ -20,6 +20,7 @@ export default function RootLayout(props: { children: React.ReactNode }) {
       <body>
         <header className="text-[4rem] h-60 bg-white flex relative">
           <h1 className="left-[4rem] bottom-[2rem] absolute">Portfolio Page</h1>
+        
         </header>
         {props.children}
       </body>
