@@ -3,7 +3,7 @@ import { Work } from "../../../data";
 
 export default function CardDetail({ data }: { data: Work }) {
   return (
-    <div className="p-10 w-50 bg-white rounded-lg flex flex-col items-center border-gray-700 border-2">
+    <div className="p-6 lg:p-10 w-50 bg-white rounded-lg flex flex-col items-center border-gray-700 border-2">
       <Image
         alt=""
         src={data.imageSrc}
