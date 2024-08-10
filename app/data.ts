@@ -13,7 +13,7 @@ export const fetchWorks = async (): Promise<Work[]> => {
       "https://portfolio-railway.microcms.io/api/v1/works",
       {
         headers: {
-          "X-API-KEY": process.env.NEXT_PUBLIC_MICROCMS_API_KEY,
+          "X-API-KEY": process.env.API_KEY,
         },
       }
     );
