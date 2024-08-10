@@ -7,7 +7,7 @@ export default function PhotoModal({
 }: {
   params: { id: string };
 }) {
-  const data: Work = swagData.find((p) => p.id === id)!;
+  const data: Work = swagData.find((p) => p.workId === id)!;
 
   return (
     <Modal>
