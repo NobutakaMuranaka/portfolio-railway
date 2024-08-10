@@ -2,16 +2,17 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function Card({
-  id,
+  workId,
   title,
   imageSrc,
 }: {
-  id: string;
+  workId: string;
   title: string;
   imageSrc: string;
 }) {
   return (
-    <Link href={`/works/${id}`}>
+    <Link href={`/works/${workId}`}>
+      {" "}
       <div className="bg-white px-5 pt-5 pb-5 rounded-lg">
         <Image
           alt=""
