@@ -23,7 +23,7 @@ export const fetchWorks = async (): Promise<Work[]> => {
     return response.data.contents.map((item: any) => ({
       workId: item.workId,
       title: item.title,
-      description: item.description,
+      description: item.description.replace(/<[^>]+>/g, ""),
       imageSrc: item.imageSrc?.url || "", // imageSrcオブジェクトからURLを取得
     }));
   } catch (error) {
