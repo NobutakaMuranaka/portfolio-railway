@@ -15,6 +15,9 @@ export const fetchWorks = async (): Promise<Work[]> => {
         headers: {
           "X-API-KEY": process.env.API_KEY,
         },
+        params: {
+          limit: 100,
+        },
       }
     );
 
