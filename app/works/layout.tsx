@@ -1,3 +1,6 @@
+// このコンポーネントは、作品一覧ページのレイアウトを定義する`WorksLayout`コンポーネントです。
+// `children`と`modal`を受け取り、ページのメインコンテンツとモーダルとして表示します。
+
 export default function WorksLayout(props: {
   children: React.ReactNode;
   modal: React.ReactNode;

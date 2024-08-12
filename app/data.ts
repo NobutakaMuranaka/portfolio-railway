@@ -1,3 +1,9 @@
+// このコードは、MicroCMSからポートフォリオの作品データを取得するための関数を定義しています。
+// axiosを使用して、APIから作品データを取得し、そのデータを整形して返します。
+// 作品データは、`Work`型として定義され、`workId`, `title`, `description`, `imageSrc`を含みます。
+// `fetchWorks`関数は、APIから最大100件の作品データを取得し、`description`からHTMLタグを削除した上で、`Work[]`の形式で返します。
+// エラーが発生した場合は、エラーメッセージをコンソールに出力し、空の配列を返します。
+
 import axios from "axios";
 
 export type Work = {
