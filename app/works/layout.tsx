@@ -11,7 +11,7 @@ export default function WorksLayout(props: {
         Works
       </h2>
       <p className="mx-8 text-[1.5rem]">
-        村中（<a href="https://x.com/wage790">@ayatakaa_chan</a>）の旅の記憶
+        村中（<a href="https://x.com/ayatakaa_chan">@ayatakaa_chan</a>）の旅の記憶
       </p>
       <p className="mx-8 text-[1.5rem]">見過ごしてた景色は億千万</p>
       {props.children}
